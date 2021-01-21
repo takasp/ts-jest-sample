@@ -10,5 +10,12 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json',
   },
-  rules: {},
+  rules: {
+    "jest/expect-expect": [
+      "error",
+      {
+        "assertFunctionNames": ["expect", "assert"]
+      }
+    ]
+  },
 };
