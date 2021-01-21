@@ -1,5 +1,6 @@
 # ts-jest-tdd-sample
 
+![Node.js CI](https://github.com/takasp/ts-jest-tdd-sample/workflows/Node.js%20CI/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This is a tdd sample repository
