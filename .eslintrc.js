@@ -11,11 +11,11 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
-    "jest/expect-expect": [
-      "error",
+    'jest/expect-expect': [
+      'error',
       {
-        "assertFunctionNames": ["expect", "assert"]
-      }
-    ]
+        assertFunctionNames: ['expect', 'assert'],
+      },
+    ],
   },
 };
