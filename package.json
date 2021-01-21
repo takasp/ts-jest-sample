@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint --ext .ts . && prettier --check './**/*.{js,ts}'",
+    "lint:fix": "eslint --ext .ts --fix . && prettier --write './**/*.{js,ts}'"
   },
   "repository": {
     "type": "git",

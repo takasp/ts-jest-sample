@@ -20,6 +20,20 @@ npm install
 npm test
 ```
 
+## Running lint
+
+### Check with lint
+
+```shell
+npm run lint
+```
+
+### Fix it with lint
+
+```shell
+npm run lint:fix
+```
+
 ## License
 
 MIT © takasp
