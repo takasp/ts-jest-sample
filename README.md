@@ -4,6 +4,10 @@
 
 This is a tdd sample repository
 
+## Requirement
+
+* Node.js 14+
+
 ## Installation
 
 ```shell
